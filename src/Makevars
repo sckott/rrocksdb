@@ -1,0 +1,7 @@
+PKG_CPPFLAGS=-I/usr/local/Cellar/rocksdb/5.13.2/include
+PKG_LIBS=-L/usr/local/Cellar/rocksdb/5.13.2/lib -lrocksdb
+
+all: clean
+
+clean:
+	rm -Rf $(SHLIB) $(OBJECTS)
