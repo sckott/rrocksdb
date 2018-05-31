@@ -1,0 +1,15 @@
+Package: rrocksdb
+Type: Package
+Title: RocksDB Client for R
+Version: 0.0.1.9100
+Authors@R: person("Scott", "Chamberlain", role = c("aut", "cre"), 
+    email = "sckott@protonmail.com")
+Description: RocksDB Client for R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    Rcpp (>= 0.12.17)
+LinkingTo: Rcpp
+SystemRequirements: C++11
+RoxygenNote: 6.0.1

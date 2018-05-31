@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^src/Makevars$
+\.yml$
+^windows
+\.in\.Rmd$
+README.md$
